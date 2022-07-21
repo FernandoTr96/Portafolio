@@ -27,7 +27,7 @@ export const ProjectSection: FC = () => {
   useEffect(()=>{
     const getdb = async ()=>{
       let url = uiTranslated ? 
-      './db/db-en.json' : 
+      '/db/db-en.json' : 
       '/db/db-es.json';
       const response = await fetch(url);
       const json = await response.json();
