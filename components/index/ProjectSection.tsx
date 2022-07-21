@@ -99,7 +99,7 @@ export const ProjectSection: FC = () => {
               className={style.sliderContainer}
             >
               {
-                projects.map((project: ProjectWithImages) => (
+                projects?.map((project: ProjectWithImages) => (
                   <SwiperSlide key={project.id} className={style.cardProject}>
                     <div className={style.cardDescription}>
                       <h4>{project.projectName}</h4>
@@ -127,7 +127,7 @@ export const ProjectSection: FC = () => {
                         modules={[Autoplay]}
                       >
                         {
-                          project.images.map((url: string, index) => (
+                          project.images?.map((url: string, index) => (
                             <SwiperSlide
                               key={index}
                               style={{
