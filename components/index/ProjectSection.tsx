@@ -40,7 +40,7 @@ export const ProjectSection: FC = () => {
     (async () => {
       setLoader(true);
       let projectsWithImages = await Promise.all(
-        db.map(async (project: Project) => {
+        db?.map(async (project: Project) => {
 
           const response = await fetch('/api/getCloudinaryImages', {
             method: 'POST',
