@@ -1,0 +1,105 @@
+.projectSection article:nth-child(1){
+    padding: 0rem 2rem;
+}
+.projectSection article:nth-child(1) h3{
+    font-size: clamp(1vw,3rem,6vw);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.projectSection article:nth-child(1) p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+.projectSection article:nth-child(2){
+    margin: 2rem;
+    height: 70%;
+}
+
+.sliderContainer{
+    height: 100%;
+    border: 2px solid var(--primary);
+}
+.cardProject{
+    display: flex;
+    justify-content: space-between;
+}
+.cardDescription{
+    height: 100%;
+    width: 40%;
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 2rem;
+}
+.cardDescription h4{
+    margin-bottom: 1.2rem;
+    color: var(--secondary);
+}
+.cardDescription button{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 3rem;
+    color: var(--secondary);
+}
+.cardDescription button:hover{
+    transition: color 200ms;
+    cursor: pointer;
+    color: rgb(102, 154, 249);
+}
+.cardDescription article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardDescription article span{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: .5rem;
+    border-radius: .5em;
+    font-weight: 600;
+    margin: .5rem 5px;
+    font-size: .8rem;
+}
+.cardImages{
+    width: 60%;
+    overflow: hidden;
+}
+.subSlider{
+    height: 100%;
+}
+.subSliderSlide{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px){
+    .projectSection{
+        height: auto;
+    }
+    .sliderContainer{
+        height: 420px;
+    }
+    .cardProject{
+        flex-direction: column;
+    }
+    .cardDescription{
+        height: auto;
+        width: 100%;
+        padding: 1rem;
+    }
+    .cardDescription h4{
+        margin-bottom: 1rem;
+    }
+    .cardDescription button{
+        margin-bottom: 1rem;
+    }
+    .cardDescription article span{
+        font-size: .6rem;
+    }
+    .cardImages{
+        width: 100%;
+        height: 100%;
+    }
+}

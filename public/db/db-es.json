@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "projectName": "Panel de control TBA",
+        "company": "Equipos de bombeo Grupo Ríos S.A de C.V",
+        "tecnologies": "#Java #Servlets #Jsp #CSS #HTML #BOOTSTRAP4 #jQuery #JavaScript",
+        "link": "https://gruporios.com.mx/",
+        "folderCloudinary": "01- Panel de control TBA"
+    },
+    {
+        "id": 2,
+        "projectName": "Sistema integral ríos",
+        "company": "Equipos de bombeo Grupo Ríos S.A de C.V",
+        "tecnologies": "#PHP #CSS #HTML #BOOTSTRAP4 #SQLServer #jQuery #JavaScript",
+        "link": "https://gruporios.com.mx/",
+        "folderCloudinary": "02- Sistema integral rios"
+    },
+    {
+        "id": 3,
+        "projectName": "Almacen CETIS99",
+        "company": "CETis99 Yatepec, Morelos",
+        "tecnologies": "#PHP #HTML #CSS #BOOTSTRAP4 #JavaScript #MySQL",
+        "link": "https://www.cetis99.edu.mx/",
+        "folderCloudinary": "03- Almacen CETIS99"
+    },
+    {
+        "id": 4,
+        "projectName": "Plataforma de archivos",
+        "company": "Proyecto personal",
+        "tecnologies": "#Java #Servlets #Jsp #HTML #CSS #JavaScript #MySQL",
+        "link": "https://github.com/FernandoTr96/Plataforma_archivos.git",
+        "folderCloudinary": "04- Plataforma de archivos"
+    },
+    {
+        "id": 5,
+        "projectName": "Aplicacion de notas",
+        "company": "Proyecto personal",
+        "tecnologies": "#Reactjs #Redux #SASS #Firebase #Nodejs",
+        "link": "https://fernandotr96.github.io/App-de-notas/",
+        "folderCloudinary": "05- Aplicacion de notas"
+    },
+    {
+        "id": 6,
+        "projectName": "Aplicacion de calendario",
+        "company": "Proyecto personal",
+        "tecnologies": "#Reactjs #Nodejs #MongoDB #MaterialUI #Redux #Toastifyjs",
+        "link": "https://calendar-app-m-e-r-n.herokuapp.com/#/login",
+        "folderCloudinary": "06- Aplicacion calendario de eventos"
+    },
+    {
+        "id": 7,
+        "projectName": "Aplicacion de chat",
+        "company": "Proyecto personal",
+        "tecnologies": "#Reactjs #Nodejs #MongoDB #TailwindCss #Socketio #Redux",
+        "link": "https://chat-app-mern-stack-15091133.herokuapp.com",
+        "folderCloudinary": "07- Aplicacion de chat"
+    }
+]

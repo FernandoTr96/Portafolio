@@ -1,0 +1,38 @@
+{
+    "homeSection": {
+        "mainTitle": "Fernando Tinoco Ramírez",
+        "secondTitle": "Web Developer Jr | Frontend"
+    },
+    "aboutSection":{
+        "aboutMe":{
+            "mainTitle": "about me now",
+            "firstParagraph": "I am passionate about web programming, I really like the frontend so I feel more comfortable using JavaScript. I have knowledge in PHP and databases, I also use to learn other technologies by myself.",
+            "secondParagraph": "I'm currently doing my degree and I'm looking for the opportunity to get my first job as a web developer."
+        }
+    },
+    "projectSection":{
+        "mainTitle": "projects",
+        "firstParagraph": "A small gallery with some of my projects. Keep in mind that some of them are personal and others were made during my internship."
+    },
+    "contactSection":{
+        "mainTitle": "contact me",
+        "formFields": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message"
+        },
+        "formButton": "Send",
+        "errors":{
+            "empty": "empty fields !",
+            "email": "email structure is not valid !"
+        },
+        "successMessage": "successfully sent !"
+    },
+    "navigationLinks":{
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    }
+}

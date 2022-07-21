@@ -1,0 +1,19 @@
+.logo{
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: background-color 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary);
+    transform: rotate(45deg);
+}
+
+.logo strong{
+    color: var(--secondary);
+    transition: color 200ms;
+    transform: rotate(-45deg);
+    font-family: 'Andes';
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}

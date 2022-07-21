@@ -1,0 +1,77 @@
+.homeSection{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   height: 91vh;
+   position: inherit;
+}
+
+.presentation{
+   width: 100%;
+}
+.presentation h1{
+   text-align: center;
+   letter-spacing: 5px;
+   font-size: clamp(3vw, 4.2rem, 10vw);
+}
+.presentation h2{
+   text-align: end;
+   font-size: clamp(1.5vw, 2rem, 5vw);
+}
+
+.presentationImages{
+   padding: 1rem;
+   width: 100%;
+   height: 100%;
+   margin-top: 3rem;
+   display: flex;
+   justify-content: space-evenly
+}
+.presentationImages picture:nth-child(1){
+   position: relative;
+   box-shadow: 15px 15px 1px 1px var(--detail-color), -15px -15px 1px 1px var(--primary);
+   width: 350px;
+   height: 300px;
+}
+.presentationImages:nth-child(2) picture{
+   position: relative;
+   width: 350px;
+   height: 300px;
+}
+
+.homeSection svg{
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width:992px){
+   .presentation h1{
+      font-size: clamp(3vw, 1.5rem, 10vw);
+      margin-bottom: 1rem;
+   }
+   .presentation h3{
+      text-align: center;
+      font-size: clamp(1.5vw, 1rem, 5vw);
+   }
+   .presentationImages{
+      margin-top: 0rem;
+      flex-direction: column;
+      align-items: center;
+   }
+   .presentationImages picture:nth-child(1){
+      width: 200px;
+      height: 200px;
+   }
+   .presentationImages:nth-child(2) picture{
+      width: 200px;
+      height: 200px;
+   }
+   .homeSection svg{
+      top: 4rem;
+      height: 250px;
+   }
+}

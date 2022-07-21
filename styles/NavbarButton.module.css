@@ -1,0 +1,27 @@
+.navbarButton{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    background-color: transparent;
+    z-index: 998;
+    cursor: pointer;
+}
+.navbarButton span {
+    padding: 1px;
+    margin: 5px 0px;
+    background-color: var(--secondary);
+    display: block;
+    transition: transform 200ms;
+    transform-origin: center;
+}
+.navbarButton span:nth-child(2){
+    width: 70%;
+}
+
+.buttonx span:nth-child(1){
+    transform: rotate(45deg) translate(2px,2px);
+}
+.buttonx span:nth-child(2){
+    width: 100%;
+    transform: rotate(-45deg) translate(2px,-3px);
+}

@@ -1,0 +1,16 @@
+.footer{
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.footer p{
+    font-family: 'Andes';
+    letter-spacing: 5px;
+    font-size: small;
+}
+
+.footer p:hover{
+    text-decoration: 1px underline wavy var(--secondary);
+}

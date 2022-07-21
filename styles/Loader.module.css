@@ -1,0 +1,11 @@
+.loader{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loader span{
+    font-weight: 600;
+    mix-blend-mode: difference;
+}

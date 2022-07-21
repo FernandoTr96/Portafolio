@@ -1,0 +1,45 @@
+.menuContainer{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    z-index: 996;
+    background-color: var(--primary);
+}
+
+.menuContainer ul{
+    list-style: none;
+    width: 80%;
+}
+.menuContainer ul li{
+    text-align: center;
+}
+.menuContainer ul li a{
+    text-decoration: none;
+    font-size: clamp(3vw, 6rem, 10vw);
+    display: block;
+    position: relative;
+    font-family: 'Andes';
+    margin: 2rem 0rem;
+    color: var(--light);
+}
+.menuContainer ul li a::after{
+    content: "";
+    inset: 0;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    opacity: .2;
+    background-color: var(--body-color);
+    mix-blend-mode: difference;
+    transition: width 300ms;
+}
+.menuContainer ul li a:hover::after{
+    width: 100%;
+}
+.menuContainer ul li a:hover{
+    color: var(--detail-color);
+}
+

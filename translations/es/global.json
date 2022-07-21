@@ -1,0 +1,38 @@
+{
+    "homeSection": {
+        "mainTitle": "Fernando Tinoco Ramírez",
+        "secondTitle": "Desarrollador Web Jr | Frontend"
+    },
+    "aboutSection":{
+        "aboutMe":{
+            "mainTitle": "sobre mi actualmente",
+            "firstParagraph": "Soy un apasionado de la programación web, me gusta mucho la parte del frontend por lo que me siento mas comodo usando JavaScript. Cuento con conocimentos en PHP y bases de datos, tambien suelo aprender de forma autodidacta otro tipo de tecnologias.",
+            "secondParagraph": "Actualmente estoy realizando mi titulación y estoy buscando la oportunidad de obtener mi primer empleo como desarrollador web."
+        }
+    },
+    "projectSection":{
+        "mainTitle": "proyectos",
+        "firstParagraph": "Una pequeña galeria con algunos de mis proyectos. Ten en cuenta que algunos de ellos son personales y otros fueron realizados en mis practicas profesionales."
+    },
+    "contactSection":{
+        "mainTitle": "contactame",
+        "formFields": {
+            "name": "Nombre",
+            "email": "Correo",
+            "subject": "Asunto",
+            "message": "Mensaje"
+        },
+        "formButton": "Enviar",
+        "errors":{
+            "empty": "exsten campos vacios !",
+            "email": "El correo no tiene una estructura valida !"
+        },
+        "successMessage": "enviado correctamente !"
+    },
+    "navigationLinks":{
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    }
+}
