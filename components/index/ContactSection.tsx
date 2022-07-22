@@ -156,7 +156,7 @@ export const ContactSection = () => {
           <div className={style.formButton}>
             {
               loader ?
-              <Loader src='/img/loader.gif' w={25} h={25} />
+              <Loader src='/img/loading.svg' w={25} h={25} />
                 :
                 <button>
                   <BiMailSend /> {t("contactSection.formButton")}

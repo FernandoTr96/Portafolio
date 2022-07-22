@@ -27,11 +27,11 @@ export const ProjectSection: FC = () => {
   useEffect(()=>{
     const getdb = async ()=>{
       let url = uiTranslated ? 
-      '/db/db-en.json' : 
-      '/db/db-es.json';
-      const response = await fetch(url);
-      const json = await response.json();
-      setdb(json);
+      '/api/getDataBaseEn' : 
+      '/api/getDataBaseEs';
+      const response = await fetch(url,{headers: { 'Content-Type': 'application/json' }});
+      const {ok,data} = await response.json();
+      ok && setdb(data);
     }
     getdb();
   },[uiTranslated])
@@ -88,7 +88,7 @@ export const ProjectSection: FC = () => {
       <article ref={$slider}>
         {
           loader ?
-            <Loader src='/img/loadingPhotos.gif' w={150} h={150} /> :
+            <Loader src='/img/loading.svg' w={40} h={40} /> :
             <Swiper
               pagination={{
                 type: "progressbar",

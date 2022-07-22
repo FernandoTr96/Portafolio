@@ -18,7 +18,6 @@ export const Loader:FC<Props> = ({src,w,h}) => {
                 height={h}
                 objectFit='contain'
             />
-            <span>Loading...</span>
         </div>
     )
 }
