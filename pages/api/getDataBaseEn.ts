@@ -1,18 +1,19 @@
-import {NextApiRequest, NextApiResponse} from 'next';
+import { NextApiRequest, NextApiResponse } from 'next';
 import { Project } from '../../interfaces/interfaces';
-import dataEspanish from '../../db/db-es.json';
+import dataEnglish from '../../db/db-en.json';
 
-interface response{
-    ok:boolean;
-    data:  Array<Project>;
+interface response {
+    ok: boolean;
+    data: Array<Project>;
 }
 
-export default async function getDataBase(req:NextApiRequest,res:NextApiResponse<response>){
-    if (dataEspanish) {
+export default async function getDataBase(req: NextApiRequest, res: NextApiResponse<response>) {
+
+    if (dataEnglish) {
 
         return res.status(200).json({
             ok: true,
-            data: dataEspanish
+            data: dataEnglish
         })
 
     }
