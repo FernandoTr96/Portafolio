@@ -15,7 +15,7 @@ export const HomeSection: FC = () => {
   useEffect(()=>{
     gsap.fromTo($boxTitle.current,{
       opacity: 0,
-      x: -100
+      x: -300
     },{
       opacity: 1,
       duration: 2,
@@ -28,11 +28,11 @@ export const HomeSection: FC = () => {
   useEffect(()=>{
     gsap.fromTo($avatar.current,{
       opacity: 0,
-      x: -100
+      y: 200
     },{
       opacity: 1,
       duration: 2,
-      x: 0,
+      y: 0,
       ease: "power3.out",
       stagger: 1
     })
