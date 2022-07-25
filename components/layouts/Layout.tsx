@@ -3,6 +3,7 @@ import { FC } from "react"
 import { Navbar, FloatingMenu,Footer } from "../ui";
 import { NavbarMenu } from '../ui/NavbarMenu';
 import { gsap } from 'gsap';
+import { PreLoader } from '../ui/PreLoader';
 
 if (typeof window !== "undefined") {
   const ScrollTrigger = require('gsap/ScrollTrigger');
@@ -31,6 +32,7 @@ const RootLayout: FC<props> = ({ children, title, description, keywords}) => {
           <Footer/>
           <NavbarMenu/>
           <FloatingMenu/>
+          <PreLoader/>
       </main>
     </>
   )

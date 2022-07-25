@@ -13,11 +13,13 @@
 .presentation h1{
    text-align: center;
    letter-spacing: 5px;
-   font-size: clamp(3vw, 4.2rem, 10vw);
+   font-size: clamp(3vw, 3.5rem, 10vw);
 }
 .presentation h2{
-   text-align: end;
-   font-size: clamp(1.5vw, 2rem, 5vw);
+   background: none;
+   text-shadow: 2px 3px 0px var(--light);
+   text-align: center;
+   font-size: clamp(1.5vw, 3rem, 5vw);
 }
 
 .presentationImages{
@@ -66,7 +68,7 @@
       width: 200px;
       height: 200px;
    }
-   .presentationImages:nth-child(2) picture{
+   .presentationImages picture:nth-child(2){
       width: 200px;
       height: 200px;
    }
@@ -74,4 +76,15 @@
       top: 4rem;
       height: 250px;
    }
+}
+
+
+@media screen and (max-width: 768px){
+   .presentationImages picture:nth-child(1){
+      width: 300px;
+      height: 300px;
+   }
+   .presentationImages picture:nth-child(2){
+      display: none;
+   } 
 }
