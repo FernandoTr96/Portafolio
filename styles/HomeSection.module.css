@@ -36,6 +36,7 @@
    width: 350px;
    height: 300px;
 }
+
 .presentationImages:nth-child(2) picture{
    position: relative;
    width: 350px;

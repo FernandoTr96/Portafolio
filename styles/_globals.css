@@ -31,7 +31,7 @@
 
   /* COLORES */
   --primary: #121f40;
-  --secondary: #bd3e85;
+  --secondary: hsl(200, 60%, 50%);
   --body-color: #182657;
   --light: #F8F9F9;
   --dark: #282726;
