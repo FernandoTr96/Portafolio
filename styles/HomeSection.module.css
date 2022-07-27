@@ -1,6 +1,6 @@
 .homeSection{
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    flex-direction: column;
    height: 91vh;
@@ -13,7 +13,8 @@
 .presentation h1{
    text-align: center;
    letter-spacing: 5px;
-   font-size: clamp(3vw, 3.5rem, 10vw);
+   margin-bottom: 2rem;
+   font-size: clamp(3vw, 6rem, 10vw);
 }
 .presentation h2{
    background: none;
@@ -22,29 +23,9 @@
    font-size: clamp(1.5vw, 3rem, 5vw);
 }
 
-.presentationImages{
-   padding: 1rem;
-   width: 100%;
-   height: 100%;
-   margin-top: 3rem;
-   display: flex;
-   justify-content: space-evenly
-}
-.presentationImages picture:nth-child(1){
-   position: relative;
-   box-shadow: 15px 15px 1px 1px var(--detail-color), -15px -15px 1px 1px var(--primary);
-   width: 350px;
-   height: 300px;
-}
-
-.presentationImages:nth-child(2) picture{
-   position: relative;
-   width: 350px;
-   height: 300px;
-}
-
 .homeSection svg{
   position: fixed;
+  height: 80%;
   z-index: -1;
   top: 0;
   left: 0;
@@ -53,39 +34,15 @@
 
 @media screen and (max-width:992px){
    .presentation h1{
-      font-size: clamp(3vw, 1.5rem, 10vw);
+      font-size: clamp(3vw, 4rem, 10vw);
       margin-bottom: 1rem;
    }
    .presentation h3{
       text-align: center;
-      font-size: clamp(1.5vw, 1rem, 5vw);
-   }
-   .presentationImages{
-      margin-top: 0rem;
-      flex-direction: column;
-      align-items: center;
-   }
-   .presentationImages picture:nth-child(1){
-      width: 200px;
-      height: 200px;
-   }
-   .presentationImages picture:nth-child(2){
-      width: 200px;
-      height: 200px;
+      font-size: clamp(1.5vw, 2rem, 5vw);
    }
    .homeSection svg{
       top: 4rem;
       height: 250px;
    }
-}
-
-
-@media screen and (max-width: 768px){
-   .presentationImages picture:nth-child(1){
-      width: 300px;
-      height: 300px;
-   }
-   .presentationImages picture:nth-child(2){
-      display: none;
-   } 
 }

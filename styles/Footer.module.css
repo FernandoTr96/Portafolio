@@ -1,6 +1,9 @@
 .footer{
+    height: 150px;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
     background-color: var(--primary);
     color: var(--secondary);
 }
