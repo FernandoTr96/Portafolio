@@ -72,6 +72,7 @@ export const AboutSection: FC = () => {
               <li><a target="_blank" rel="noreferrer">Redux</a></li>
               <li><a target="_blank" rel="noreferrer">Thunk</a></li>
               <li><a target="_blank" rel="noreferrer">PHP</a></li>
+              <li><a target="_blank" rel="noreferrer">C# nociones</a></li>
               <li><a target="_blank" rel="noreferrer">Laravel nociones</a></li>
               <li><a target="_blank" rel="noreferrer">Java nociones</a></li>
               <li><a target="_blank" rel="noreferrer">MySQL</a></li>
